@@ -13,64 +13,138 @@
     </ul>
   </div>
   <div id="content">
-    <div id="playlist1" class="playlist active">
-        <div id="playlist-header">
-            <img src="/images/Zetak_header_zeid.png" alt="header1" class="playlist-header-image">
-        </div>
-        
-        <div class="inicio-playlist">
-            <hr class="spacer2">
-            <h2 class="playlist-title">ZEINEN EDERRA IZANGO DEN</h2>
-            <hr class="spacer3">
-            <ul class="song-list">
-                <li>
-                    <a data-url="https://www.youtube.com/watch?v=8-N6K9H9SMk" onclick="playSong(this)">
-                      <div class="song-button">
-                        <span>Zeinen Ederra Izango Den</span>
-                      </div>
-                    </a>
-                </li>
-                <li>
-                    <a data-url="https://www.youtube.com/watch?v=vKoIpMbbZZ0" onclick="playSong(this)">
-                      <div class="song-button">
-                        <span>Hitzeman</span>
-                      </div>
-                    </a>
-                </li>
-                <li>
-                    <a data-url="https://www.youtube.com/watch?v=GgT4z3iRm6g" onclick="playSong(this)">
-                      <div class="song-button">
-                        <span>Akelarretan</span>
-                      </div>
-                    </a>
-                </li>
-                <li>
-                    <a data-url="https://www.youtube.com/watch?v=55FQ1uRwMq8" onclick="playSong(this)">
-                      <div class="song-button">
-                        <span>Sutondoko Kantuak</span>
-                      </div>
-                    </a>
-                </li>
-                <li>
-                    <a data-url="https://www.youtube.com/watch?v=_VheAgGJgj8" onclick="playSong(this)">
-                      <div class="song-button">
-                        <span>Zer Geratuko da Azkenean</span>
-                      </div>
-                    </a>
-                </li>
-                <li>
-                    <a data-url="https://www.youtube.com/watch?v=YusCN-L3sOM" onclick="playSong(this)">
-                      <div class="song-button">
-                        <span>Hegan</span>
-                      </div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="video-container">
-            <iframe id="video-player" width="560" height="315" src="" frameborder="0"></iframe>
+    <title>ZEID - ZETAK FANPAGE</title>
+
+    <meta http-equiv="Expires" content="0">
+
+    <meta http-equiv="Last-Modified" content="0">
+    
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    
+    <meta http-equiv="Pragma" content="no-cache">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;1000&display=swap" rel="stylesheet">
+    
+    <div class="wrapper">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <div class="header">ZETAK FANPAGE</div>
+    <div id="sidebar">
+        <img src="/images/Zetak_logo.jpg" alt="Logo" class="sidebar-image">
+        <hr class="spacer">
+        <ul>
+            <h1 id="menu-title">ALBUMAK</h1>
+            <li>
+                <a class="playlist-imagen" onclick="switchPlaylist('playlist1')"><img src="/images/zeid_album.jpg" alt="Zeinen Ederra Izango Den"></a><br>
+                <a class="playlist-imagen" onclick="switchPlaylist('playlist2')"><img src="/images/zetak_album.jpg" alt="Zetak"></a><br>
+                <a class="playlist-imagen" onclick="switchPlaylist('playlist3')"><img src="/images/singleak.jpg" alt="Singleak"></a><br>
+                <a class="playlist-imagen" onclick="switchPlaylist('playlist4')"><img src="/images/zurezaurianireada_album.jpg" alt="Zure Zauria Nirea da"></a><br>
+            </li>
+        </ul>
+    </div>
+        <div id="content">
+            <div id="playlist1" class="playlist active">
+                <div id="playlist-header">
+                    <img src="/images/Zetak_header_zeid.png" alt="header1" class="playlist-header-image">
+                </div>
+                
+                <div class="inicio-playlist">
+                    <hr class="spacer2">
+                    <h2 class="playlist-title">ZEINEN EDERRA IZANGO DEN</h2>
+                    <hr class="spacer3">
+                    <ul class="song-list">
+                        <li>
+                            <a data-url="https://www.youtube.com/watch?v=8-N6K9H9SMk" onclick="playSong(this)">
+                              <div class="song-button">
+                                <span>Zeinen Ederra Izango Den</span>
+                              </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-url="https://www.youtube.com/watch?v=vKoIpMbbZZ0" onclick="playSong(this)">
+                              <div class="song-button">
+                                <span>Hitzeman</span>
+                              </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-url="https://www.youtube.com/watch?v=GgT4z3iRm6g" onclick="playSong(this)">
+                              <div class="song-button">
+                                <span>Akelarretan</span>
+                              </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-url="https://www.youtube.com/watch?v=55FQ1uRwMq8" onclick="playSong(this)">
+                              <div class="song-button">
+                                <span>Sutondoko Kantuak</span>
+                              </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-url="https://www.youtube.com/watch?v=_VheAgGJgj8" onclick="playSong(this)">
+                              <div class="song-button">
+                                <span>Zer Geratuko da Azkenean</span>
+                              </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-url="https://www.youtube.com/watch?v=YusCN-L3sOM" onclick="playSong(this)">
+                              <div class="song-button">
+                                <span>Hegan</span>
+                              </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="video-container">
+                    <iframe id="video-player" width="560" height="315" src="" frameborder="0"></iframe>
+                </div>
+            </div>
         </div>
     </div>
-  </div>
+
+        <script>
+            function playSong(song) {
+            var songUrl = song.dataset.url;
+            var videoId = extractVideoId(songUrl);
+            var player = song.closest('.playlist').querySelector('iframe');
+            var videoUrl = 'https://www.youtube.com/embed/' + videoId;
+            player.src = videoUrl;
+        }
+
+        function switchPlaylist(playlistId) {
+            // Obtener todas las listas de reproducción
+            var playlists = document.getElementsByClassName('playlist');
+
+            // Iterar sobre las listas de reproducción y ocultarlas
+            for (var i = 0; i < playlists.length; i++) {
+                playlists[i].classList.remove('active');
+            }
+
+            // Mostrar la lista de reproducción seleccionada
+            var playlist = document.getElementById(playlistId);
+            playlist.classList.add('active');
+        }
+
+        function extractVideoId(url) {
+            // Expresión regular para extraer el ID del video de YouTube
+            var regex = /(?:youtube(?:-nocookie)?\.com\/(?:[^\/\n\s]+\/\S+\/|(?:v|vi|e(?:mbed)?)\/|\S*?[?&]v=|\S*?[?&]vi=)|youtu\.be\/)([a-zA-Z0-9_-]{11})/;
+
+            var match = url.match(regex);
+
+            if (match && match[1]) {
+                return match[1];
+            } else {
+                return '';
+            }
+        }
+    </script>
+    <footer class="footer">
+        &copy; 2023. Todos los derechos reservados a <a href="https://www.zetak.org" target="_blank">ZETAK</a> | Esto es una fanpage creada por <a href="https://twitter.com/gorkaalpz_" target="_blank">@gorkaalpz_</a>
+    </footer>  
+</body>
+</html>               
+
 </body>
 </html>
