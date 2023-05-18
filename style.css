@@ -196,38 +196,6 @@ h1 {
     max-height: 100%;
 }
 
-/*Botones singles */
-
-.singles {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width: 50%;
-    margin-left: 15px;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.sinlges li {
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5px;
-    padding: 10px;
-    background-color: 0;
-    border-radius: 5px;
-    font-size: 24px;
-    color: #2c2c2c;
-    cursor: pointer;
-}
-
-.playbutton {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 80px;
-    height: 80px;
-}
 
 
 /*Duplicado de song-list */
