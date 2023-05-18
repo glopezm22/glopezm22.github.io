@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-  <div id="sidebar">
-    <h1>ZETAK MUSIC</h1>
-    <ul>
-      <li><a href="playlist1.html">Playlist 1</a></li>
-      <li><a href="playlist2.html">Playlist 2</a></li>
-      <li><a href="playlist3.html">Playlist 3</a></li>
-    </ul>
-  </div>
-  <div id="content">
-    <title>ZEID - ZETAK FANPAGE</title>
+    <title>ZETAK FANPAGE</title>
 
     <meta http-equiv="Expires" content="0">
 
@@ -23,6 +11,8 @@
     
     <meta http-equiv="Pragma" content="no-cache">
 
+</head>
+<body>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;1000&display=swap" rel="stylesheet">
     
@@ -43,10 +33,10 @@
         </ul>
     </div>
         <div id="content">
-          <div id="playlist1" class="playlist active">
-              <div id="playlist-header">
-                  <img src="/images/Zetak_header_zeid.png" alt="header1" class="playlist-header-image">
-              </div>
+            <div id="playlist1" class="playlist active">
+                <div id="playlist-header">
+                    <img src="/images/Zetak_header_zeid.png" alt="header1" class="playlist-header-image">
+                </div>
                 
                 <div class="inicio-playlist">
                     <hr class="spacer2">
@@ -101,8 +91,150 @@
                     <iframe id="video-player" width="560" height="315" src="" frameborder="0"></iframe>
                 </div>
             </div>
+            <div id="playlist2" class="playlist">
+                <div id="playlist-header">
+                    <img src="/images/Zetak_header_zetak.png" alt="header1" class="playlist-header-image">
+                </div>
+                
+                <div class="inicio-playlist">
+                    <hr class="spacer2">
+                    <h2 class="playlist-title">ZETAK</h2>
+                    <hr class="spacer3">
+                    <ul class="albumzetaksongs">
+                        <li>
+                            <a data-url="https://www.youtube.com/watch?v=hI4oUiPvpWA" onclick="playSong(this)">
+                              <div class="song-button">
+                                <span>Zertan Ari Gara</span>
+                              </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-url="https://www.youtube.com/watch?v=riHHVx2drZs" onclick="playSong(this)">
+                              <div class="song-button">
+                                <span>Nirekin Topatu Naiz</span>
+                              </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-url="https://www.youtube.com/watch?v=7P9hrOOjV14" onclick="playSong(this)">
+                              <div class="song-button">
+                                <span>Errepidean</span>
+                              </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-url="https://www.youtube.com/watch?v=FI0pPh0mMWY" onclick="playSong(this)">
+                              <div class="song-button">
+                                <span>Su</span>
+                              </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-url="https://www.youtube.com/watch?v=vC3_vZ60wL4" onclick="playSong(this)">
+                              <div class="song-button">
+                                <span>Suziri Bi</span>
+                              </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-url="https://www.youtube.com/watch?v=zJ4XLqQOTcQ" onclick="playSong(this)">
+                              <div class="song-button">
+                                <span>Pater Noster</span>
+                              </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-url="https://www.youtube.com/watch?v=mq8MhyrW3zc" onclick="playSong(this)">
+                              <div class="song-button">
+                                <span>Beti Da Garaiz</span>
+                              </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-url="https://www.youtube.com/watch?v=29viQMqEMAo" onclick="playSong(this)">
+                              <div class="song-button">
+                                <span>Kaliza Hau</span>
+                              </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-url="https://www.youtube.com/watch?v=KLDlSlZjp1Y" onclick="playSong(this)">
+                              <div class="song-button">
+                                <span>Argitan</span>
+                              </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-url="https://www.youtube.com/watch?v=fDk2oFI5bUM" onclick="playSong(this)">
+                              <div class="song-button">
+                                <span>Sagarra</span>
+                              </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="video-container">
+                    <iframe id="video-player" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div id="playlist3" class="playlist">
+                <div id="playlist-header">
+                    <img src="/images/Zetak_header_singleak.png" alt="header1" class="playlist-header-image">
+                </div>
+                
+                <div class="inicio-playlist">
+                    <hr class="spacer2">
+                    <h2 class="playlist-title">SINGLEAK</h2>
+                    <hr class="spacer3">
+                    <ul class="song-list">
+                        <li>
+                            <a data-url="https://www.youtube.com/watch?v=ZErUMnB7aMk" onclick="playSong(this)">
+                              <div class="song-button">
+                                <span>Itzulera ft. Erramun Martikorena</span>
+                              </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-url="https://www.youtube.com/watch?v=9K8Ktl3haN0" onclick="playSong(this)">
+                              <div class="song-button">
+                                <span>Zoriontasuna ft. Bomba Estéreo</span>
+                              </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-url="https://www.youtube.com/watch?v=I4zBVfyEd5s" onclick="playSong(this)">
+                              <div class="song-button">
+                                <span>Pa amb Oli I Sal ft. SUU</span>
+                              </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="video-container">
+                    <iframe id="video-player" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div id="playlist4" class="playlist">
+                <div id="playlist-header">
+                    <img src="/images/zetak_header_zurezaurianireada.png" alt="header1" class="playlist-header-image">
+                </div>
+                
+                <div class="inicio-playlist">
+                    <hr class="spacer2">
+                    <h2 class="playlist-title">ZURE ZAURIA NIREA DA - SOON</h2>
+                    <hr class="spacer3">
+                    <ul class="song-list-albumberria">
+                      <li>
+                        <span>Ez dago datarik, baina badakigu ZETAK album berria aterako duela. Ez dugu uste denbora askorik geratzen denik, beraz ZETAK-en sare sozialetaz adi egon behako gara!</span>
+                      </li>
+                    </ul>
+                </div>
+                <div class="video-container">
+                    <iframe id="video-player" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
-    
+    </div>
 
         <script>
             function playSong(song) {
@@ -142,8 +274,6 @@
     </script>
     <footer class="footer">
         &copy; 2023. Todos los derechos reservados a <a href="https://www.zetak.org" target="_blank">ZETAK</a> | Esto es una fanpage creada por <a href="https://twitter.com/gorkaalpz_" target="_blank">@gorkaalpz_</a>
-    </footer>                
-
-    </div>
+    </footer>  
 </body>
-</html>
+</html>               
