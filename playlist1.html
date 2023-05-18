@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="sidebar">
+    <h1>ZETAK MUSIC</h1>
+    <ul>
+      <li><a href="playlist1.html">Playlist 1</a></li>
+      <li><a href="playlist2.html">Playlist 2</a></li>
+      <li><a href="playlist3.html">Playlist 3</a></li>
+    </ul>
+  </div>
+  <div id="content">
+    <div id="playlist1" class="playlist active">
+        <div id="playlist-header">
+            <img src="/images/Zetak_header_zeid.png" alt="header1" class="playlist-header-image">
+        </div>
+        
+        <div class="inicio-playlist">
+            <hr class="spacer2">
+            <h2 class="playlist-title">ZEINEN EDERRA IZANGO DEN</h2>
+            <hr class="spacer3">
+            <ul class="song-list">
+                <li>
+                    <a data-url="https://www.youtube.com/watch?v=8-N6K9H9SMk" onclick="playSong(this)">
+                      <div class="song-button">
+                        <span>Zeinen Ederra Izango Den</span>
+                      </div>
+                    </a>
+                </li>
+                <li>
+                    <a data-url="https://www.youtube.com/watch?v=vKoIpMbbZZ0" onclick="playSong(this)">
+                      <div class="song-button">
+                        <span>Hitzeman</span>
+                      </div>
+                    </a>
+                </li>
+                <li>
+                    <a data-url="https://www.youtube.com/watch?v=GgT4z3iRm6g" onclick="playSong(this)">
+                      <div class="song-button">
+                        <span>Akelarretan</span>
+                      </div>
+                    </a>
+                </li>
+                <li>
+                    <a data-url="https://www.youtube.com/watch?v=55FQ1uRwMq8" onclick="playSong(this)">
+                      <div class="song-button">
+                        <span>Sutondoko Kantuak</span>
+                      </div>
+                    </a>
+                </li>
+                <li>
+                    <a data-url="https://www.youtube.com/watch?v=_VheAgGJgj8" onclick="playSong(this)">
+                      <div class="song-button">
+                        <span>Zer Geratuko da Azkenean</span>
+                      </div>
+                    </a>
+                </li>
+                <li>
+                    <a data-url="https://www.youtube.com/watch?v=YusCN-L3sOM" onclick="playSong(this)">
+                      <div class="song-button">
+                        <span>Hegan</span>
+                      </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="video-container">
+            <iframe id="video-player" width="560" height="315" src="" frameborder="0"></iframe>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
