@@ -360,3 +360,36 @@ h1 {
     height: 80%;
     border: 10px solid #a0956a;
 }
+
+
+/*INTRO*/
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .intro-section {
+      display: flex;
+      align-items: center;
+    }
+
+    .intro-text {
+      flex: 1;
+    }
+
+    .intro-text p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    .intro-image {
+      flex: 1;
+      text-align: center;
+    }
+
+    .intro-image img {
+      max-width: 100%;
+      height: auto;
+    }
